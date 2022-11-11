@@ -66,6 +66,12 @@ function generatePassword() {
     userChoice.push(special);
   }
 
+  // Generates prompt for not selecting a confirm. Must select atleast one char type.
+  if(passwordLower === false && passwordUpper === false && passwordNumber === false && passwordSpecial === false){
+    window.alert("Please select at least one character type")
+    return generatePassword();
+  }
+
 
 
 function writePassword() {
