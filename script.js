@@ -95,6 +95,15 @@ function generatePassword() {
   return userInput
 }
 
+let randoFunc = function(max){
+  return Math.floor(Math.random() * max);
+}
+
+function letsMakeItRandom(dataArr) {
+  let index = randoFunc(dataArr.length)
+  return dataArr[index]
+}
+
 
 
 function writePassword() {
