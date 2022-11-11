@@ -25,6 +25,7 @@ The purpose of this program is to generate a secure password. It does this by ra
 
 
 ![](assets/images/passgenjs.png)
+![](assets/images/passgenjs1.png)
 
 
 
